@@ -13,3 +13,206 @@
     font-family: 'Open Sans', sans-serif;
    
 }
+
+body{
+    background-color: var(--page-background);
+    height: 100vh
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+small{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px
+}
+
+img{
+    height: 18px;
+    width: 18px;
+}
+
+header{
+    height: 450px;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    margin-top: 100px;
+    max-width: 90vw;
+}
+
+.content h1{
+    max-width: 560px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.content p{
+    max-width: 560px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container{
+    max-width: 90vw;
+    margin: -150px auto;
+}
+
+.table-pricing{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    width: 355px;
+    height: 470px;
+    background: white;
+    box-shadow: 0 1px 2px rgba(142, 150, 185, 0.25);
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px
+}
+
+.card-title{
+    padding: 30px 30px 10px 30px;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-body{
+    padding: 0 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.pricing{
+    margin: 10px 0;
+}
+
+.pricing .amount{
+    font-size:36px;
+    font-weight:700;
+    line-height: 49px;
+}
+
+.month{
+    font-size: 18px;
+    color: var(--gray);
+    line-height: 25px;
+    margin-left: 5px;
+}
+
+.description{
+    font-size:1rem;
+    line-height: 19px;
+    color: var(--gray);
+}
+
+.divider{
+    height: 1px;
+    width: 100%;
+    background-color: #eee;
+    margin: 20px 0;
+}
+
+.benefits{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.benefits .benefit{
+    display: flex;
+    gap: 15px;
+}
+
+.benefit p{
+    color: var(--gray);
+    font-weight: 600;
+    font-size: 14px;
+    line-height:19px;
+}
+
+button{
+    border-bottom: 1px solid var(--blue);
+    border-radius: 10px;
+    margin-top: auto;
+    padding: 12px 24px;
+    width: 100%;
+
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color .5s
+}
+
+button:hover{
+    background-color: var(--blue);
+    color: white;
+    border: 1px solid var(--blue);
+}
+
+.card .popular{
+    height: 49px
+}
+
+.popular .card-title{
+    display: flex;
+    padding: 30px 30px 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--yellow);
+    padding: 22px 20px 22px 30px;
+    box-shadow: 0 1px 2px rgba(142, 150, 185, 0.25);
+}
+
+.popular h2{
+    color: var(--blue);
+    font-size: 2rem;
+    line-height: 27px
+}
+
+.ṕopular .label{
+    border-radius: 40px;
+    background-color: var(--blue);
+    padding: 8px 24px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: white;
+}
+
+.btn-popular{
+    color: #fff;
+    background-color: var(--blue);
+    margin-bottom: 13px;
+    transition: background-color .5s
+}
+
+.btn-popular:hover{
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+.item .popular .pricing{
+    margin-top: 10px;
+}
